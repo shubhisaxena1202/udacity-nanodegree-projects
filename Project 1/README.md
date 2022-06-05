@@ -18,8 +18,8 @@ With this motivation in mind, we perform data analysis of Breast Cancer Wisconsi
 
 For my analysis before application of any machine learning techniques, I am interested to find answers to the following questions:<br>
 1. 
-   .. a. Is the radius of the cells different for Benign(non- cancerous) and Malignant (cancerous) cells? <br>
-   .. b. Is the symmetry of the cells different for Benign and Malignant cells?<br>
+   ..* Is the radius of the cells different for Benign(non- cancerous) and Malignant (cancerous) cells? <br>
+   ..* Is the symmetry of the cells different for Benign and Malignant cells?<br>
 2. How are the features distributed in the dataset?<br>
 3. Which features are highly correlated to each other? <br>
 4. Which are the most important features that can predict if the tumour cell is Benign or Malignant in nature?
