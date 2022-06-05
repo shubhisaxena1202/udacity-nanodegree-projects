@@ -17,8 +17,8 @@ Data mining and machine learning techniques contribute a lot in the development 
 With this motivation in mind, we perform data analysis of Breast Cancer Wisconsin (Diagnostic) Data Set available on Kaggle [here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download). In this dataset, features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. <br>
 
 For my analysis before application of any machine learning techniques, I am interested to find answers to the following questions:<br>
-1. <br>
-   a. Is the radius of the cells different for Benign(non- cancerous) and Malignant (cancerous) cells? <br>
+1. How do specific features different for both classes? <br>
+   a. Is the radius of the cells different for Benign(non - cancerous) and Malignant (cancerous) cells? <br>
    b. Is the symmetry of the cells different for Benign and Malignant cells?<br>
 2. How are the features distributed in the dataset?<br>
 3. Which features are highly correlated to each other? <br>
