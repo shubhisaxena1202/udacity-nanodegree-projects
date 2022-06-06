@@ -27,7 +27,7 @@ For my analysis before application of any machine learning techniques, I am inte
 For the classification of benign and malignant tumour cells I have used classification technique (Logistic Regression) of machine learning.
 
 ## Result Summary <br>
-My analysis shows that some attributes like mean_radius of the cells are important for prediction between Benign and Malignant cells. The dataset is a mix of some features which are highly correlated with each other while others have with 0 correlation. Most of the features are measured in different scales and are (mostly) not evenly distributed. These issues have been fixed and addressed before the implementation of Logistic Regression, which gives a precision score of 95.03% .
+My analysis shows that some attributes like mean_radius of the cells are important for prediction between Benign and Malignant cells. The dataset is a mix of some features which are highly correlated with each other while others have with 0 correlation. Most of the features are measured in different scales and are (mostly) not evenly distributed. These issues have been fixed and addressed before the implementation of Logistic Regression, which gives a precision score of 96.09% .
 
 ## Licensing, Authors, and Acknowledgements
 Licensing for the data and other descriptive information can be found here [Breast Cancer Wisconsin (Diagnostic) Data Set] (https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
