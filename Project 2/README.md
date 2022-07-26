@@ -15,15 +15,15 @@ app
 
 data
 
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv # data to process
-|- process_data.py # data cleaning pipeline
-|- InsertDatabaseName.db # database to save clean data to
+|- disaster_categories.csv # data to process <br>
+|- disaster_messages.csv # data to process <br>
+|- process_data.py # data cleaning pipeline <br>
+|- InsertDatabaseName.db # database to save clean data to sqlite database <br>
 
 models
 
-|- train_classifier.py # machine learning pipeline
-|- classifier.pkl # saved model
+|- train_classifier.py # machine learning pipeline <br>
+|- classifier.pkl # saved model <br>
 
 README.md
 
