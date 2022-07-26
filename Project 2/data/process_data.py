@@ -21,6 +21,13 @@ def load_data(messages_filepath, categories_filepath):
 
 
 def clean_data(df):
+    '''
+    Cleans the dataframe
+
+    Parameters: dataframe
+
+    Returns: cleaned dataframe
+    '''
     # create a dataframe of the 36 individual category columns
     categories = df['categories'].str.split(";",expand=True)
     # select the first row of the categories dataframe
@@ -38,6 +45,8 @@ def clean_data(df):
     
     # convert column from string to numeric
         categories[column] = categories[column].astype(int)
+    # replace 2s with 1s in related column
+    categories['related'] = categories['related'].replace(to_replace=2, value=1)
 
     df = df.drop('categories',axis=1)
     # concatenate the original dataframe with the new `categories` dataframe
@@ -48,6 +57,12 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
+    '''
+    Saves the dataframe to sqlite database
+
+    Parameters: df - dataframe
+    database_filename - filepath to save database
+    '''
     engine = create_engine(f'sqlite:///{database_filename}')
     df.to_sql('disaster_messages', engine, index=False, if_exists = 'replace')
     # pass  

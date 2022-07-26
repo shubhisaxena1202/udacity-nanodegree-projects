@@ -4,6 +4,29 @@
 ### Objective:
 In this application, we analyze disaster data to build a model for an API that classifies disaster messages. The project includes a web app where an emergency worker can input a new message and get classification results. The web application can also display visualizations of the data.
 
+### File Descriptions
+
+app
+
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
+
+data
+
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py # data cleaning pipeline
+|- InsertDatabaseName.db # database to save clean data to
+
+models
+
+|- train_classifier.py # machine learning pipeline
+|- classifier.pkl # saved model
+
+README.md
+
 ### Components
 
 There are three components in this project.
