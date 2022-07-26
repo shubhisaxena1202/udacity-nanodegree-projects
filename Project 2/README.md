@@ -8,10 +8,10 @@ In this application, we analyze disaster data to build a model for an API that c
 
 app
 
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
-|- run.py # Flask file that runs app
+| - template <br>
+| |- master.html # main page of web app <br>
+| |- go.html # classification result page of web app <br>
+|- run.py # Flask file that runs app <br>
 
 data
 
