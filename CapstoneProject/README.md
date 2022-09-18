@@ -46,5 +46,7 @@ For simplicity a few images have been added to the 'data' folder of this project
 ## Licensing, Authors, and Acknowledgements
 Rosebrock, A. 2020. “Intro to Anomaly Detection with OpenCV, Computer Vision, and Scikit-Learn.” PyImageSearch, www.pyimagesearch.com/2020/01/20/intro-to-anomaly-detection-with-opencv-computer-vision- and-scikit-learn/.
 
+## Link to Medium Blog Post:
+https://medium.com/@shubhiS/climate-anomaly-detection-of-satellite-images-ee0c8e644bbb
 
 
