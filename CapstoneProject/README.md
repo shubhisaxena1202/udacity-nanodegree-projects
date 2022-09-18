@@ -29,7 +29,7 @@ For simplicity a few images have been added to the 'data' folder of this project
 ## File Descriptions <br>
     1. Data Folder : 
         a. 34 : 
-            Original Sample images of location 34 over the specified time frame. <br>
+            Original Sample images of location 34 over the specified time frame. 
         b. 34_cropped : 
             Cropped images of location 34 as specified above, without the watermark. This is the output folder of preprocess.py script in the project.
         c. test :
