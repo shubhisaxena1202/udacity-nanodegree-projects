@@ -6,7 +6,9 @@
 3. Seaborn
 4. Matplotlib
 5. Sklearn
-6. os
+6. cv2
+7. os
+
 
 No additional installations required beyond Anaconda distribution of Python and Jupyter Notebooks 
 
@@ -36,11 +38,13 @@ For simplicity a few images have been added to the 'data' folder of this project
            This folder contains sample images that have been used for test purposes of algorithms currently beyond the scope of this project, keeping in mind Udacity's complexity.
         d. train : 
            This folder contains sample images that have been used for test purposes of algorithms currently beyond the scope of this project, keeping in mind Udacity's complexity.
-    2.  k-means.ipynb :
+    2.  isolation_forests.py :
+        This python script contains source code for performing isolation_forests algorithm.
+    3.  k-means.ipynb :
         This notebook contains source code for performing KMeans algorithm for 1 sample image to reduce complexity.
-    3.  pcaimage.ipynb :
+    4.  pcaimage.ipynb :
         This notebook contains the source code for performing PCA and Incremental PCA to reconstruct images.
-    4.  preprocess.py :
+    5.  preprocess.py :
         This python script is used to create training & testing sample of images from raw image dataset by removing the watermark from the images.
 
 ## Licensing, Authors, and Acknowledgements
