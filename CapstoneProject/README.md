@@ -23,7 +23,7 @@ Keeping in mind the complexity of Udacity's nanodegree program, only KMeans clus
 ### Principal Component Analysis for Dimensionality Reduction <br>
 Principal Component Analysis or PCA was a dimensionality reduction technique used in order to reduce the dimensions of the Landsat-8 images. PCA transforms the features of data by combining them into uncorrelated linear combinations. The image can be reconstructed using the number of components needed to explain the threshold variance.
 
-### Isolation Forests <br>
+### Isolation Forests for Anomaly Detection <br>
 Isolation Forests was another algorithm used to detect anomalies in the satellite image dataset.The isolation forest algorithm is based on the concept that anomalous data points are easier to isolate than normal data points through random partitioning of the data. The number of partitions it takes to make the point isolated indicates if a point is anomalous or not. To predict new data points, an anomaly score is computed by searching the previously created isolation trees and calculating the ratio between the average search height of the new point and the average path length. If the ratio is close to 1, then it’s clas- sified as an anomalous data point.
 
 ## Data Acquistion <br>
